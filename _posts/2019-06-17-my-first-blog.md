@@ -34,6 +34,13 @@ jekyll serve --watch
 
 이제 깃허브에 반영해서 로컬이 아닌 `깃허브사용자명.github.io`에서 내 블로그를 볼 수 있게 해보자. `깃허브사용자명.github.io`이란 이름으로 새로운 온라인 저장소를 만든다.
 
+# 첫 글을 작성
+
+```
+cd _posts/
+cp 2019-06-17-welcome-to-jekyll.markdown 2019-06-17-my-first-post.md
+(vim 2019-06-17-my-first-post.md)
+```
 ```
 git init
 git remote add origin 저장소URL
@@ -42,15 +49,7 @@ git commit -m "Initialize blog"
 git push origin master
 ```
 
-
-# 첫 글을 작성
-
-```
-cd _posts/
-cp 2019-06-17-welcome-to-jekyll.markdown 2019-06-17-my-first-post.md
-(vim 2019-06-17-my-first-post.md)
-```
-`vim`을 사용해도 되고 다른 에디터를 사용해서 **마크다운**을 이용하여 글을 작성하면 끝!!
+`vim`을 사용해도 되고 다른 에디터를 사용해서 **마크다운**을 이용하여 글을 작성하고 배포하면 끝!!
 
 
 
