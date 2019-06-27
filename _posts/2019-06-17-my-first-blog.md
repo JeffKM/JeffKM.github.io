@@ -2,7 +2,7 @@
 layout: post
 title:  "My First Github Blog"
 date:   2019-06-17 13:29:15 +0900
-categories: jekyll update
+categories: [Blog Upgrade]
 ---
 * TOC
 {:toc}

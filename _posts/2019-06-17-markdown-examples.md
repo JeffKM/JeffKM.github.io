@@ -2,7 +2,7 @@
 layout: post
 title:  "Variable Examples Made Using MarkDown Grammer"
 date:   2019-06-16 13:29:15 +0900
-categories: jekyll update
+categories: [Language]
 ---
 * TOC
 {:toc}

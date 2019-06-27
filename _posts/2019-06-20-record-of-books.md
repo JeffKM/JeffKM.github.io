@@ -2,7 +2,7 @@
 layout: post
 title:  "Record Of Books"
 date:   2019-06-20 10:41:00 +0000
-categories: jekyll update
+categories: [ETC]
 ---
 
 | 책 제목 | 시작일 | 종료일 |  완독여부  |
