@@ -16,7 +16,7 @@ categories: [Blog Upgrade]
 
 category.html은 category 이름에 맞는 포스트들의 타이트들을 리스트로 보여준다. 코드는 아래와 같다.
 
-```
+```html
 ---
 layout: default
 ---
@@ -41,7 +41,7 @@ layout: default
 
 아래의 내용과 같이 수정한다.
 
-```
+```html
 <header class="site-category">
   <ul>
     
@@ -65,7 +65,7 @@ layout: default
 
 마크다운 파일 내용은 아래와 같다.
 
-```
+```md
 ---
 
 layout: category
@@ -80,12 +80,16 @@ title: 여기에 카테고리 이름 입력!
 위의 세가지 셋팅 후 포스트를 작성 시 카테고리 항목만 추가하여 주면 카테고리 지정이 된다.
 마크다운 파일 내용은 아래와 같다.
 
-```
+```md
 ---
 
 layout: category
 
 title: [여기에 카테고리 이름 입력](복수 카테고리도 가능하다.)
+
+
+
+Contents
 
 ---
 ```

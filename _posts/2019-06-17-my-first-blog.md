@@ -16,13 +16,13 @@ categories: [Blog Upgrade]
 
 #### 지킬 설치
 
-```
+```shell
 [sudo] gem install jekyll
 ```
 
 # 지킬 초기화
 
-```
+```shell
 Jekyll new 깃허브사용자명.github.io
 cd 깃허브사용자명.github.com
 jekyll serve --watch
@@ -36,12 +36,12 @@ jekyll serve --watch
 
 # 첫 글을 작성
 
-```
+```shell
 cd _posts/
 cp 2019-06-17-welcome-to-jekyll.markdown 2019-06-17-my-first-post.md
 (vim 2019-06-17-my-first-post.md)
 ```
-```
+```shell
 git init
 git remote add origin 저장소URL
 git add .
