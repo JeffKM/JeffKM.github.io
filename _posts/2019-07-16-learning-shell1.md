@@ -19,7 +19,7 @@ categories: [Language]
 
 ```shell
 
-[me@linuxbox ~]$
+[me@linuxbox ~]$ 
 
 ```
 
